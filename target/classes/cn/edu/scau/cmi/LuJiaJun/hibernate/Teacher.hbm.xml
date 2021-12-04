@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.edu.scau.cmi.LuJiaJun.hibernate">
+    <!-- 指明类和表的对应关系 table：表名 name：类名 -->
+    <class name="Teacher" table="student">
+        <!-- 配置我们的映射关系 -->
+        <!-- 主键映射关系 -->
+        <id name="tid" column="id">
+
+        </id>
+        <!-- 配置非主键属性 -->
+        <property name="teacherName" column="name"></property>
+
+    </class>
+</hibernate-mapping>
